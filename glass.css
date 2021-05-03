@@ -1,0 +1,81 @@
+body {
+  background-image: url(https://picsum.photos/1920);
+  background-size: cover;
+  padding: 5% 10%;
+  min-height: 100vh;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#contact-form {
+  background: rgba(8, 101, 20, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5% 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-group {
+  background: rgba(8, 101, 20, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10% 10px;
+}
+
+.form-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  display: none;
+}
+
+.form-input,
+button {
+  background: rgba(226, 209, 209, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  outline: none;
+  padding: 5% 10%;
+}
+
+.form-input::placeholder {
+  color: white;
+}
+.button:hover {
+  background: rgba(152, 135, 135, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.buttons {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.form-heading {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
